@@ -167,8 +167,8 @@ footer {
 }
 
 .footer1 {
-    display: flex;
-    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     color: rgb(80, 60, 42);
 }

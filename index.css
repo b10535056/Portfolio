@@ -232,18 +232,16 @@ footer {
 }
 
 .footer1 {
-    display: flex;
-    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     color: rgb(80, 60, 42);
 }
 
-.footer-col {
+/* .footer-col {
     display: grid;
     justify-items: center;
-    width: 300px;
-    /* height: 200px; */
-}
+} */
 
 footer ul {
     list-style: none;
@@ -681,6 +679,7 @@ footer ul h2 {
 
     .footer-intro {
         display: flex;
+        justify-content: center;
     }
 
     .footer-intro a {
